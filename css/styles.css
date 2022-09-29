@@ -1,0 +1,275 @@
+.container-fluid{
+    margin-top: 50px;
+    display: flex;
+    height: auto;
+}
+.container{
+    height: auto;
+}
+.row{
+    margin-bottom: 20px;
+}
+.wrapper{
+    height: auto;
+    margin-right: 30px;
+}
+.menu,.avater{
+    display: none;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:820px) {
+    .nav-bar{
+       text-align: center;
+          
+    }
+    .log{
+        display: flex;
+        justify-content: space-around;
+    }
+    .menu , .avater {
+        display: block;
+    }
+}
+img{
+    width: 150px;
+}
+.nav-content{
+    background: red;
+    border-radius: 7px;
+    
+}
+.last-item{
+    background:#0061A3;
+    border-radius: 5px;
+    /* border-top-left-radius:5px;
+    border-bottom-left-radius: 5px; */
+   
+}
+.active{
+    border-bottom: 1px solid #fff;
+    padding: 70px;  
+}
+
+.banner-img{
+    width: auto;
+}
+
+.banner-img > img{
+    width: 100%;
+}
+.row-content{
+   margin-top: 20px;
+}
+.mb-4{
+    border-radius: 10px; 
+}
+
+.inner-contents{
+    margin-top:20px;
+    border:1px solid rgba(0, 0,0,0.2);
+    border-radius: 7px;   
+  
+}
+
+.content-img > img{
+    width:70px;
+    height:50px;
+}
+.desc:not(:last-child){
+   font-size: 14px;
+    display: flex;
+    align-items: center;
+   
+}
+.right{
+    text-align: right;
+    text-decoration: underline;
+    font-size: 12px;
+}
+@media  screen and (max-width:700px) {
+   
+    .inner-contents{
+        width: 100%;
+    }
+    .right {
+        padding-left: 120px;
+    }
+    
+}
+.mega{
+    display: flex;
+    border:1px solid rgba(0, 0,0,0.2);
+    justify-content: space-around;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 7px;
+    padding:5px;
+    
+}
+.mega > img {
+    width:35%;
+    height: 50px;
+}
+.flag > img{
+    width:10px;
+}
+.play{
+    background:#0061A3;
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-bottom: 10px;
+
+}
+.play > .btn{
+    background: #F7D300;
+}
+.play > p >img {
+    width:10px;
+}
+.btn-red{
+    background: red;
+    margin-bottom: 20px;
+}
+.new-mega{
+    border: 1px solid rgba(0, 0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    
+}
+.new-mega > img{
+    width:60px;
+}
+.new > span {
+    font-size: 5%;
+}
+.new-mega > span > .usa{
+    width: 15px;
+}
+
+.mega-desc > img{
+    width:13px;
+}
+
+.new-flag > img{
+    width:10px;
+}
+.new-mega > .btn{
+    background: #F7D300;
+}
+.lottery{
+   background: red;
+    padding:8px;
+    color:#fff;
+    border-radius: 7px;
+    text-align: center;
+}
+.winner-content{
+    border: 1px solid rgba(0, 0,0,0.2);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+}
+.lot-content{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    
+}
+@media  screen and (max-width:720px) {
+    .lot-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.lot-content > img{
+    padding-right: 40px;
+    width: 100%;
+    height: auto;
+}
+.story{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.story > a{
+    text-decoration: underline;
+}
+.story > .btn{
+    
+    width: 100%;
+}
+.latest {
+    border: 1px solid rgba(0, 0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+.country-content{
+    margin-top: 10px;
+    border-radius: 7px;  
+}
+
+.latest{
+    margin-top:20px;
+}
+.faq {
+    margin-top:40px;
+}
+.faq > a {
+    margin-top: 10px;
+
+}
+.faq > .d-flex{
+    width: 600px;
+}
+.expand {
+    display: flex;
+    justify-content: space-between;
+    width:600px;
+}
+.arrow {
+    width:20px;
+}
+.payment {
+    width:60px;
+    margin-bottom: 10px;
+    
+}
+    
+#alternate{
+    text-align: right;
+}
+
+@media screen and (max-width:720px) {
+  
+    .footer-align{
+        display: flex;
+    }
+    .float:not(:first-child){
+        display: flex;
+        justify-content: space-around;
+        
+    }.payment {
+        width:55px;
+    }
+    .all-pay{
+        margin-left:30px;
+    }
+} 
